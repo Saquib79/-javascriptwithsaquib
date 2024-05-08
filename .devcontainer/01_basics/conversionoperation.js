@@ -50,11 +50,11 @@ let str3 = str1 + str2
 
 console.log(str3);
 
-console.log("1" + 2); (result 12  "bcz of the first value is string")
-console.log(1 + "2"); (result 12  "first is num then add string")
-console.log("1" + "2"); (result 12 "it automatically write both string side by side)
-console.log("1" +2 +2); (result 122 "bcz of first value is string it take all the value as string afte the string)
-console.log(1 + 2 + "2") (result 32 "bcz of it first add both num and write string value beside it)
+//console.log("1" + 2); (result 12  "bcz of the first value is string")
+//console.log(1 + "2"); (result 12  "first is num then add string")
+//console.log("1" + "2"); (result 12 "it automatically write both string side by side)
+//console.log("1" +2 +2); (result 122 "bcz of first value is string it take all the value as string afte the string)
+//console.log(1 + 2 + "2") (result 32 "bcz of it first add both num and write string value beside it)
   
 
 let gameCounter = 100
