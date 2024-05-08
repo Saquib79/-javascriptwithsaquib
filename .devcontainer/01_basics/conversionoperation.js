@@ -7,13 +7,13 @@
 //console.log(typeof score);
 //console.log(typeof(score));
 
-//let valueInNumber= Number(score)
+//let valueInNumber= Number(score) (it always gives the num value if we pass the string bcz of use valueInNumber it force fully convert the string or oter value into number)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
-// "33" => 33
-// "33abc" =>NaN
-// true => 1; false =>0
+// "33" => 33 (coversion gives as also num value data type)
+// "33abc" =>NaN (conversion gives as NaN value data type)
+// true => 1; false =>0 (boolean value gives result in 1 and 0 form)
 
 //let isLoggedIn= 1
 
@@ -31,7 +31,7 @@
 
 
 
-// ***********Operation************//
+// *********** Operation************//
 
 let value = 3
 let negValue = -value
@@ -49,6 +49,13 @@ let str2 =  " sadik"
 let str3 = str1 + str2
 
 console.log(str3);
+
+console.log("1" + 2); (result 12  "bcz of the first value is string")
+console.log(1 + "2"); (result 12  "first is num then add string")
+console.log("1" + "2"); (result 12 "it automatically write both string side by side)
+console.log("1" +2 +2); (result 122 "bcz of first value is string it take all the value as string afte the string)
+console.log(1 + 2 + "2") (result 32 "bcz of it first add both num and write string value beside it)
+  
 
 let gameCounter = 100
 //gameCounter++;
