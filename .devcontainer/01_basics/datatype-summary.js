@@ -25,13 +25,13 @@ const bigNumber = 123456789n //when we use the 'n' in the last of number then it
 
 //Array, Object, Function
 
-const heros = ["shaktiman", "ironman", "batman"];
+const heros = ["shaktiman", "ironman", "batman"]; //(Array)
 
 let myObj = {
 
     name:"saquib"
     age:24
-}
+}  // (Object)
 
 
 //Function(){} (syntax of Function)
