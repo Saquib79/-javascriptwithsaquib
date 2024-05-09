@@ -40,3 +40,14 @@ const myFunction = function(){
 
     console.log("Hello world");
 }
+
+
+//--------------------------------------------------------------------------------------
+
+// Memory in javascript
+
+// Tow types of memory ( Stack , Heap ) 
+// Stack (Stack use primitrive data type),(In stack memory when we chamge the value the value can be chamge in copy value)
+// Heap (Heap use Non Primitive data type) ,(In Heap when we change the value the value is change in orginal value)
+
+
