@@ -5,41 +5,41 @@
 
 //7 types: string, Number, Boolean, null , undifined, symbol, BigInt
 
-const score = 100
-const scoreValue = 100.3
+//const score = 100
+//const scoreValue = 100.3
 
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
+//const isLoggedIn = false
+//const outsideTemp = null
+//let userEmail;
 
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+//const id = Symbol('123')
+//const anotherId = Symbol('123')
 
 //sumbole give the like unique value in a program.if we have same value of diffrent variable then the symbole says that not the both value is same.
 
-console.log(id===anotherId);
+//console.log(id===anotherId);
 
-const bigNumber = 123456789n //when we use the 'n' in the last of number then it automaticaly convert into BigInt value.
+//const bigNumber = 123456789n //when we use the 'n' in the last of number then it automaticaly convert into BigInt value.
 
 //Refrence (Non Primtive)
 
 //Array, Object, Function
 
-const heros = ["shaktiman", "ironman", "batman"]; //(Array)
+//const heros = ["shaktiman", "ironman", "batman"]; //(Array)
 
-let myObj = {
+//let myObj = {
 
-    name:"saquib"
-    age:24
-}  // (Object)
+   // name:"saquib"
+   // age:24
+//}  // (Object)
 
 
 //Function(){} (syntax of Function)
-const myFunction = function(){
+//const myFunction = function(){
 
-    console.log("Hello world");
-}
+   // console.log("Hello world");
+//}
 
 
 //--------------------------------------------------------------------------------------
@@ -50,4 +50,22 @@ const myFunction = function(){
 // Stack (Stack use primitrive data type),(In stack memory when we chamge the value the value can be chamge in copy value)
 // Heap (Heap use Non Primitive data type) ,(In Heap when we change the value the value is change in orginal value)
 
+let myName = "Saquib"
 
+let anotherName = myName
+anotherName = "kolkata"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne =  {
+    email: "saquib@abc.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sadik@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
