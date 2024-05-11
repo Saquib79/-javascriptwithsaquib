@@ -42,3 +42,10 @@ const text1 = "hello"
 const text2 = " world"
 const text3 = text1.concat("",text2)
 console.log(text3);
+
+const txt = "The rain in SPAIN stays mainly in the plain";
+console.log(txt.match('ain')); //witout regular expression
+console.log(txt.match(/ain/g)); //with regular expression (global) value.
+console.log(txt.match(/ain/gi)); //Perform a global, case-insensitive search for "ain":
+
+//If a regular expression does not include the g modifier (global search), match() will return only the first match in the string.
