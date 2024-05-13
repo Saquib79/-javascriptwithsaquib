@@ -21,8 +21,12 @@ const myArr = [0,1,2,3,4,5]
 //myArr.shift()
 //console.log(myArr);
 
+//console.log(myArr.includes(9));
+//console.log(myArr.indexOf(3));
 
+const fruits =["banana", "orange", "lemon", "apple"]
+//console.log(fruits.slice(1));
 
-console.log(myArr.includes(9));
-console.log(myArr.indexOf(3));
+//console.log(fruits.slice(1,3));
 
+console.log(fruits.splice(0 ,4));
